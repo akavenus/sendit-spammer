@@ -1,14 +1,14 @@
 //module imports
 const got = require('got')
 const prompt = require('prompt-sync')();
-const tunnel = require('tunnel')
+
 //global functions
 function rand(min, max) {return Math.floor(Math.random() * (max - min) + min);}
 
 //global variables
-const stickerID = "a77fca32-74d8-45af-88d9-58cccc703868"
-const authorShadowToken = "49519ab6-c73f-4fe7-ae48-1cf79f420995"
-const recipientID = "191e8a4e-e75d-4981-889e-05e916391f55"
+const stickerID = ""
+const authorShadowToken = ""
+const recipientID = ""
 const userAgents = require('./bot-data/user-agents.json')
 
 //main function
